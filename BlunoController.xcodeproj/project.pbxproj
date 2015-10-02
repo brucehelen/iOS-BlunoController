@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		322AE4A51BBE5AEB004D4330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AE4A41BBE5AEB004D4330 /* main.m */; };
+		322AE4A81BBE5AEB004D4330 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AE4A71BBE5AEB004D4330 /* AppDelegate.m */; };
+		322AE4AB1BBE5AEB004D4330 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AE4AA1BBE5AEB004D4330 /* ViewController.m */; };
+		322AE4AE1BBE5AEB004D4330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322AE4AC1BBE5AEB004D4330 /* Main.storyboard */; };
+		322AE4B01BBE5AEB004D4330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322AE4AF1BBE5AEB004D4330 /* Assets.xcassets */; };
+		322AE4B31BBE5AEB004D4330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322AE4B11BBE5AEB004D4330 /* LaunchScreen.storyboard */; };
+		322AE4BE1BBE5AEB004D4330 /* BlunoControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AE4BD1BBE5AEB004D4330 /* BlunoControllerTests.m */; };
+		322AE4C91BBE5AEB004D4330 /* BlunoControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322AE4C81BBE5AEB004D4330 /* BlunoControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		322AE4BA1BBE5AEB004D4330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322AE4981BBE5AEB004D4330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322AE49F1BBE5AEB004D4330;
+			remoteInfo = BlunoController;
+		};
+		322AE4C51BBE5AEB004D4330 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 322AE4981BBE5AEB004D4330 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 322AE49F1BBE5AEB004D4330;
+			remoteInfo = BlunoController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		322AE4A01BBE5AEB004D4330 /* BlunoController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlunoController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		322AE4A41BBE5AEB004D4330 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		322AE4A61BBE5AEB004D4330 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		322AE4A71BBE5AEB004D4330 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		322AE4A91BBE5AEB004D4330 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		322AE4AA1BBE5AEB004D4330 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		322AE4AD1BBE5AEB004D4330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		322AE4AF1BBE5AEB004D4330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		322AE4B21BBE5AEB004D4330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		322AE4B41BBE5AEB004D4330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322AE4B91BBE5AEB004D4330 /* BlunoControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlunoControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322AE4BD1BBE5AEB004D4330 /* BlunoControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlunoControllerTests.m; sourceTree = "<group>"; };
+		322AE4BF1BBE5AEB004D4330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322AE4C41BBE5AEB004D4330 /* BlunoControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlunoControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		322AE4C81BBE5AEB004D4330 /* BlunoControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlunoControllerUITests.m; sourceTree = "<group>"; };
+		322AE4CA1BBE5AEB004D4330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		322AE49D1BBE5AEB004D4330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322AE4B61BBE5AEB004D4330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322AE4C11BBE5AEB004D4330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		322AE4971BBE5AEB004D4330 = {
+			isa = PBXGroup;
+			children = (
+				322AE4A21BBE5AEB004D4330 /* BlunoController */,
+				322AE4BC1BBE5AEB004D4330 /* BlunoControllerTests */,
+				322AE4C71BBE5AEB004D4330 /* BlunoControllerUITests */,
+				322AE4A11BBE5AEB004D4330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		322AE4A11BBE5AEB004D4330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				322AE4A01BBE5AEB004D4330 /* BlunoController.app */,
+				322AE4B91BBE5AEB004D4330 /* BlunoControllerTests.xctest */,
+				322AE4C41BBE5AEB004D4330 /* BlunoControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322AE4A21BBE5AEB004D4330 /* BlunoController */ = {
+			isa = PBXGroup;
+			children = (
+				322AE4A61BBE5AEB004D4330 /* AppDelegate.h */,
+				322AE4A71BBE5AEB004D4330 /* AppDelegate.m */,
+				322AE4A91BBE5AEB004D4330 /* ViewController.h */,
+				322AE4AA1BBE5AEB004D4330 /* ViewController.m */,
+				322AE4AC1BBE5AEB004D4330 /* Main.storyboard */,
+				322AE4AF1BBE5AEB004D4330 /* Assets.xcassets */,
+				322AE4B11BBE5AEB004D4330 /* LaunchScreen.storyboard */,
+				322AE4B41BBE5AEB004D4330 /* Info.plist */,
+				322AE4A31BBE5AEB004D4330 /* Supporting Files */,
+			);
+			path = BlunoController;
+			sourceTree = "<group>";
+		};
+		322AE4A31BBE5AEB004D4330 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				322AE4A41BBE5AEB004D4330 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		322AE4BC1BBE5AEB004D4330 /* BlunoControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				322AE4BD1BBE5AEB004D4330 /* BlunoControllerTests.m */,
+				322AE4BF1BBE5AEB004D4330 /* Info.plist */,
+			);
+			path = BlunoControllerTests;
+			sourceTree = "<group>";
+		};
+		322AE4C71BBE5AEB004D4330 /* BlunoControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				322AE4C81BBE5AEB004D4330 /* BlunoControllerUITests.m */,
+				322AE4CA1BBE5AEB004D4330 /* Info.plist */,
+			);
+			path = BlunoControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		322AE49F1BBE5AEB004D4330 /* BlunoController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322AE4CD1BBE5AEB004D4330 /* Build configuration list for PBXNativeTarget "BlunoController" */;
+			buildPhases = (
+				322AE49C1BBE5AEB004D4330 /* Sources */,
+				322AE49D1BBE5AEB004D4330 /* Frameworks */,
+				322AE49E1BBE5AEB004D4330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlunoController;
+			productName = BlunoController;
+			productReference = 322AE4A01BBE5AEB004D4330 /* BlunoController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		322AE4B81BBE5AEB004D4330 /* BlunoControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322AE4D01BBE5AEB004D4330 /* Build configuration list for PBXNativeTarget "BlunoControllerTests" */;
+			buildPhases = (
+				322AE4B51BBE5AEB004D4330 /* Sources */,
+				322AE4B61BBE5AEB004D4330 /* Frameworks */,
+				322AE4B71BBE5AEB004D4330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322AE4BB1BBE5AEB004D4330 /* PBXTargetDependency */,
+			);
+			name = BlunoControllerTests;
+			productName = BlunoControllerTests;
+			productReference = 322AE4B91BBE5AEB004D4330 /* BlunoControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		322AE4C31BBE5AEB004D4330 /* BlunoControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322AE4D31BBE5AEB004D4330 /* Build configuration list for PBXNativeTarget "BlunoControllerUITests" */;
+			buildPhases = (
+				322AE4C01BBE5AEB004D4330 /* Sources */,
+				322AE4C11BBE5AEB004D4330 /* Frameworks */,
+				322AE4C21BBE5AEB004D4330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				322AE4C61BBE5AEB004D4330 /* PBXTargetDependency */,
+			);
+			name = BlunoControllerUITests;
+			productName = BlunoControllerUITests;
+			productReference = 322AE4C41BBE5AEB004D4330 /* BlunoControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		322AE4981BBE5AEB004D4330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = china;
+				TargetAttributes = {
+					322AE49F1BBE5AEB004D4330 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					322AE4B81BBE5AEB004D4330 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 322AE49F1BBE5AEB004D4330;
+					};
+					322AE4C31BBE5AEB004D4330 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 322AE49F1BBE5AEB004D4330;
+					};
+				};
+			};
+			buildConfigurationList = 322AE49B1BBE5AEB004D4330 /* Build configuration list for PBXProject "BlunoController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 322AE4971BBE5AEB004D4330;
+			productRefGroup = 322AE4A11BBE5AEB004D4330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				322AE49F1BBE5AEB004D4330 /* BlunoController */,
+				322AE4B81BBE5AEB004D4330 /* BlunoControllerTests */,
+				322AE4C31BBE5AEB004D4330 /* BlunoControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		322AE49E1BBE5AEB004D4330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322AE4B31BBE5AEB004D4330 /* LaunchScreen.storyboard in Resources */,
+				322AE4B01BBE5AEB004D4330 /* Assets.xcassets in Resources */,
+				322AE4AE1BBE5AEB004D4330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322AE4B71BBE5AEB004D4330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322AE4C21BBE5AEB004D4330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		322AE49C1BBE5AEB004D4330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322AE4AB1BBE5AEB004D4330 /* ViewController.m in Sources */,
+				322AE4A81BBE5AEB004D4330 /* AppDelegate.m in Sources */,
+				322AE4A51BBE5AEB004D4330 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322AE4B51BBE5AEB004D4330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322AE4BE1BBE5AEB004D4330 /* BlunoControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		322AE4C01BBE5AEB004D4330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322AE4C91BBE5AEB004D4330 /* BlunoControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		322AE4BB1BBE5AEB004D4330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322AE49F1BBE5AEB004D4330 /* BlunoController */;
+			targetProxy = 322AE4BA1BBE5AEB004D4330 /* PBXContainerItemProxy */;
+		};
+		322AE4C61BBE5AEB004D4330 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 322AE49F1BBE5AEB004D4330 /* BlunoController */;
+			targetProxy = 322AE4C51BBE5AEB004D4330 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		322AE4AC1BBE5AEB004D4330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322AE4AD1BBE5AEB004D4330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		322AE4B11BBE5AEB004D4330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				322AE4B21BBE5AEB004D4330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		322AE4CB1BBE5AEB004D4330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		322AE4CC1BBE5AEB004D4330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		322AE4CE1BBE5AEB004D4330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlunoController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bruce-zhu.BlunoController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		322AE4CF1BBE5AEB004D4330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlunoController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bruce-zhu.BlunoController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		322AE4D11BBE5AEB004D4330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlunoControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bruce-zhu.BlunoControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlunoController.app/BlunoController";
+			};
+			name = Debug;
+		};
+		322AE4D21BBE5AEB004D4330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BlunoControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bruce-zhu.BlunoControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlunoController.app/BlunoController";
+			};
+			name = Release;
+		};
+		322AE4D41BBE5AEB004D4330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlunoControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bruce-zhu.BlunoControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlunoController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		322AE4D51BBE5AEB004D4330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BlunoControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bruce-zhu.BlunoControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BlunoController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		322AE49B1BBE5AEB004D4330 /* Build configuration list for PBXProject "BlunoController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322AE4CB1BBE5AEB004D4330 /* Debug */,
+				322AE4CC1BBE5AEB004D4330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322AE4CD1BBE5AEB004D4330 /* Build configuration list for PBXNativeTarget "BlunoController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322AE4CE1BBE5AEB004D4330 /* Debug */,
+				322AE4CF1BBE5AEB004D4330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		322AE4D01BBE5AEB004D4330 /* Build configuration list for PBXNativeTarget "BlunoControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322AE4D11BBE5AEB004D4330 /* Debug */,
+				322AE4D21BBE5AEB004D4330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		322AE4D31BBE5AEB004D4330 /* Build configuration list for PBXNativeTarget "BlunoControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322AE4D41BBE5AEB004D4330 /* Debug */,
+				322AE4D51BBE5AEB004D4330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 322AE4981BBE5AEB004D4330 /* Project object */;
+}
