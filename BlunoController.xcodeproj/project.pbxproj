@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					322AE49F1BBE5AEB004D4330 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = ZV2299XXGK;
 					};
 					322AE4B81BBE5AEB004D4330 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -411,6 +412,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BlunoController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BlunoController/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -498,6 +501,7 @@
 				322AE4CF1BBE5AEB004D4330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		322AE4D01BBE5AEB004D4330 /* Build configuration list for PBXNativeTarget "BlunoControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +510,7 @@
 				322AE4D21BBE5AEB004D4330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		322AE4D31BBE5AEB004D4330 /* Build configuration list for PBXNativeTarget "BlunoControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +519,7 @@
 				322AE4D51BBE5AEB004D4330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
